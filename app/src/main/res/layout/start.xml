@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/large"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Personal Information"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/text2"
+        android:layout_toEndOf="@+id/text5" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text7"
+        android:layout_marginBottom="-8dp"
+        android:layout_toEndOf="@+id/text7" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="219dp"
+        android:layout_height="36dp"
+
+        android:layout_alignBottom="@+id/text6"
+        android:layout_toEndOf="@+id/text7" />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="225dp"
+        android:layout_height="36dp"
+
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/text6" />
+
+    <EditText
+        android:id="@+id/et5"
+        android:layout_width="235dp"
+        android:layout_height="36dp"
+
+        android:layout_below="@+id/text3"
+        android:layout_toEndOf="@+id/text5" />
+
+    <EditText
+        android:id="@+id/et6"
+        android:layout_width="196dp"
+        android:layout_height="36dp"
+
+        android:layout_alignBottom="@+id/text3"
+        android:layout_toEndOf="@+id/text3" />
+
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text2"
+        android:layout_alignStart="@+id/text"
+        android:layout_marginBottom="-125dp"
+        android:text="Image"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text"
+        android:layout_marginTop="143dp"
+        android:text="Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text"
+        android:layout_marginTop="186dp"
+        android:text="Contact No."
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text"
+        android:layout_marginTop="223dp"
+        android:text="Email"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text"
+        android:layout_centerVertical="true"
+        android:text="Gender"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text"
+        android:layout_marginBottom="229dp"
+        android:text="Address"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text"
+        android:layout_marginBottom="181dp"
+        android:text="Objective"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/B8"
+        android:layout_width="99dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/B7"
+        android:layout_marginEnd="12dp"
+        android:background="@color/colorAccent"
+        android:text="Continue"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/B7"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@color/colorAccent"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

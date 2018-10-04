@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/large"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Education"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <EditText
+        android:id="@+id/et7"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text8"
+        android:layout_toEndOf="@+id/text8" />
+
+    <EditText
+        android:id="@+id/et8"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text9"
+        android:layout_toEndOf="@+id/B7" />
+
+    <EditText
+        android:id="@+id/et9"
+        android:layout_width="255dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text10"
+        android:layout_alignEnd="@+id/et7"
+        android:layout_marginEnd="-1dp" />
+
+    <EditText
+        android:id="@+id/et10"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text5"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp" />
+
+    <EditText
+        android:id="@+id/et11"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text11"
+        android:layout_alignStart="@+id/et8" />
+
+    <EditText
+        android:id="@+id/et12"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text15"
+        android:layout_alignEnd="@+id/et7" />
+
+    <EditText
+        android:id="@+id/et13"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text13"
+        android:layout_alignEnd="@+id/et7" />
+
+    <EditText
+        android:id="@+id/et14"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text17"
+        android:layout_alignEnd="@+id/et7" />
+
+    <EditText
+        android:id="@+id/et15"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text18"
+        android:layout_alignEnd="@+id/et7" />
+
+    <EditText
+        android:id="@+id/et16"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text16"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp" />
+
+    <EditText
+        android:id="@+id/et17"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text14"
+        android:layout_alignEnd="@+id/B8"
+        android:layout_marginEnd="9dp" />
+
+    <EditText
+        android:id="@+id/et18"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/text12"
+        android:layout_alignEnd="@+id/et10"
+        android:layout_marginEnd="1dp" />
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text9"
+        android:layout_alignStart="@+id/text9"
+        android:layout_marginBottom="-106dp"
+        android:text="School Name"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text10"
+        android:layout_marginTop="106dp"
+        android:text="Subjects"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text5"
+        android:layout_marginTop="140dp"
+        android:text="Years"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/B7"
+        android:layout_marginTop="171dp"
+        android:text="College Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginTop="205dp"
+        android:text="Category"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginBottom="94dp"
+        android:text="Years"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/text8"
+        android:layout_centerVertical="true"
+        android:text="University"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginBottom="131dp"
+        android:text="Degree"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginTop="239dp"
+        android:text="Years"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginBottom="164dp"
+        android:text="Other institute"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginBottom="237dp"
+        android:text="Degree"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/text8"
+        android:layout_marginBottom="206dp"
+        android:text="Years"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/B9"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/B10"
+        android:layout_marginEnd="14dp"
+        android:background="@color/colorAccent"
+        android:text="Continue"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/B10"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@color/colorAccent"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

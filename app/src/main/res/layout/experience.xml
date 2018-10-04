@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/large"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:text="Work Experience"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.191" />
+
+    <EditText
+        android:id="@+id/e6"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/t1"
+        android:layout_alignEnd="@+id/B9" />
+
+    <EditText
+        android:id="@+id/e1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/tv4"
+        android:layout_below="@+id/t1"
+        android:layout_marginEnd="-40dp" />
+
+    <EditText
+        android:id="@+id/e2"
+        android:layout_width="277dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/t6"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+    <EditText
+        android:id="@+id/e3"
+        android:layout_width="238dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/t4"
+        android:layout_alignStart="@+id/e6" />
+
+    <EditText
+        android:id="@+id/e4"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/e2"
+        android:layout_below="@+id/e3" />
+
+    <EditText
+        android:id="@+id/e5"
+        android:layout_width="273dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBottom="@+id/t3"
+        android:layout_alignStart="@+id/e2" />
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/t2"
+        android:layout_marginTop="107dp"
+        android:text="Place Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="149dp"
+        android:layout_toStartOf="@+id/tv4"
+        android:text="Job"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/t1"
+        android:layout_marginBottom="219dp"
+        android:text="Years"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/t1"
+        android:layout_marginTop="243dp"
+        android:text="Place Name"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/t1"
+        android:layout_marginBottom="258dp"
+        android:text="Job"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/t1"
+        android:layout_marginTop="188dp"
+        android:text="Years"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+
+
+    <Button
+        android:id="@+id/B9"
+        android:layout_width="100dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/B10"
+        android:layout_marginEnd="14dp"
+        android:background="@color/colorAccent"
+        android:text="Continue"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/B10"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginStart="14dp"
+        android:background="@color/colorAccent"
+        android:text="Back"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+
+</RelativeLayout>
